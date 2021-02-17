@@ -23,7 +23,7 @@ class Share extends Component {
         //Facebook share not allowed ImageUrl/PictureUrl attributes in directly .So,that this is the another way.v r using Open Graph(https://developers.facebook.com/docs/sharing/webmasters#markup) Meta Tags for image,descrpition,title,url...etc.
         //and checking required url on facebook sharing debugger (https://developers.facebook.com/tools/debug/).
         const meta = {
-            title: 'Open Graph Properties',
+            title: 'Open Graph Propertie',
             meta: {
               property: {
                 'og:title': 'Title for You',
